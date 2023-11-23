@@ -1,6 +1,6 @@
 The authors of the **Magnetic Tile Surface Defect Dataset** explore the significance of magnetic tiles in engines, where maintaining a productive automatic assembly line for magnetic tile manufacturing remains a fundamental challenge. It consists of 1344 images with the following defect types: *blowhole*, *crack*, *fray*, *break*, *uneven* (caused by the grinding process), and images with no defects.
 
-<img src="https://github.com/abin24/Magnetic-tile-defect-datasets./blob/master/dataset.jpg" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/magnetic-tile-surface-defect/assets/78355358/cde78acd-c7da-403c-8da3-02f335200d6a" alt="image" width="800">
 
 Surface defect detection is crucial for filtering out subpar products, yet this process often involves significant manual effort. In Zhejiang Province, China, the largest magnetic tile production base globally, approximately three-quarters of the workforce is engaged in manual product quality inspections. In response to this, various image processing techniques, such as those based on grayscale value, gradient edge, wavelet, curvelet, and shearlet transformations, have been proposed to automate inspection tasks. Recently, deep neural network models have gained prominence for surface defect detection, demonstrating state-of-the-art performance in classification tasks. These advancements underscore the feasibility of employing computer vision for surface examinations and the potential to reduce reliance on human labor.
 

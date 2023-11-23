@@ -1,6 +1,6 @@
 Dataset **Magnetic Tile Surface Defect** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/i/B/15/dWL9rY7EtI260YYtWpv45L0haKYfeHlVyExYHl5LEeTUauTHZdA8xSDROeDW2A2SFNNFoyUpUVTJyo1FISLAatAPA8KDZJptMew2YYAgNUwIsfvf6H4PW2BOnlX7.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash

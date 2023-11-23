@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Magnetic Tile Surface Defect"
 PROJECT_NAME_FULL: str = "Magnetic Tile Surface Defect Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -57,7 +57,13 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://github.com/abin24/Magnetic-tile-defect-datasets./archive/refs/heads/master.zip"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "blowhole": [230, 25, 75],
+    "uneven": [60, 180, 75],
+    "break": [255, 225, 25],
+    "crack": [0, 130, 200],
+    "fray": [245, 130, 48],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
